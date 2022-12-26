@@ -175,6 +175,11 @@ body {
   outline: none;
   padding: 16px 0;
   width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #99A4AF;
 }
 .search_box button {
   width: 26px;
@@ -366,6 +371,12 @@ body {
   flex-wrap: wrap;
   width: calc(100% + 26px);
   margin-left: -26px;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.special_news_wrap-webkit-scrollbar { 
+  display: none; 
 }
 .special_news_wrap .card_news {
   width: calc(33.3% - 26px);
